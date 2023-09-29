@@ -1,0 +1,73 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+body {
+    background-color: black;
+}
+
+.header { 
+    
+    background-color: rgb(16, 125, 168);
+}
+
+.hero { 
+    background-color: red;
+}
+
+.content {
+    background-color: green;
+}
+
+.sidebar {
+    background-color: blueviolet;
+}
+
+.footer {
+    background-color: gray;
+}
+/* Tablets */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+    .content {
+      float: left;
+      width: 60%;
+      height: 500px;
+    }
+    .sidebar {
+      float: right;
+      width: 60%;
+      height: 500px;
+    }
+    .footer {
+      display: inline-block;
+    }
+  }
+
+/* Escritorio */
+  @media only screen and (min-width: 768px) {
+     .container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    } 
+    .content {
+      float: left;
+      width: 60%;
+      min-height: 400px;
+      
+    }
+    .sidebar {
+      float: right;
+      width: 40%;
+      min-height: 400px;
+      
+    }
+    .footer {
+      display: inline-block;
+      width: 100%;
+      
+    }
+}
+
+
