@@ -29,15 +29,15 @@ body {
     background-color: gray;
 }
 /* Tablets */
-@media only screen and (min-width: 600px)and(max-width: 768px) {
+@media only screen and (min-width: 600px) {
     .content {
       float: left;
-      width: 60%;
+      width: 49%;
       height: 500px;
     }
     .sidebar {
       float: right;
-      width: 60%;
+      width: 49%;
       height: 500px;
     }
     .footer {
@@ -48,8 +48,8 @@ body {
 /* Escritorio */
   @media only screen and (min-width: 768px) {
      .container {
-        padding-right: 2rem;
-        padding-left: 2rem;
+        padding-right: 20px;
+        padding-left: 20px;
     } 
     .content {
       float: left;
